@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html{
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body h2{
+    text-align: center;
+    margin: 12px;
+    font-weight: bold;
+    font-size: 24px;
+}
+header{
+    background-color: #005885;
+}
+.cabecalho{
+    background-image: url(./cabecalho.jpg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.formulario{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario form{
+    width: 40%;
+}
+.campo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.campo1 input{
+    width: 100%;
+    text-align: center;
+    margin: 8px;
+    height: 24px;
+}
+.campo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.campo2 input{
+    width: 100%;
+    text-align: center;
+    margin: 8px;
+    height: 24px;
+
+
+}
+.campo3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.campo3 input {
+    width: 100%;
+    margin: 8px;
+    height: 34px;
+    background-color: #005885;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+body h3{
+    text-align: center;
+    margin: 12px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.tabela{
+    border: 2px solid #005885;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
+.tabela th{
+    border-bottom: 1px solid #005885;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.tabela td{
+    padding: 12px;
+    margin: 8px;
+}
+.tabela .acoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tabela .acoes input{
+    cursor: pointer;
+}
+
+.btn_edicao{
+    width: 34px;
+    height: 24px;
+    background-image: url(./editar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.btn_excluir{
+    width: 34px;
+    height: 24px;
+    background-image: url(./excluir.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+
+
